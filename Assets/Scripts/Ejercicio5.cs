@@ -9,7 +9,11 @@ public class Ejercicio5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(num1 + "/" + num2 + " = " + (num1/num2));
+        try
+        {
+            Debug.Log(num1 + "/" + num2 + " = " + (num1 / num2));
+        }
+        catch { Debug.Log("No se puede dividir por cero"); }
     }
 
     // Update is called once per frame

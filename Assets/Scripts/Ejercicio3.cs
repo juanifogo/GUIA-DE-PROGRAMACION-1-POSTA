@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio1 : MonoBehaviour
+public class Ejercicio3 : MonoBehaviour
 {
-    public int num1;
+    public string input;
     // Start is called before the first frame update
     void Start()
     {
-        num1 = 0;
-        num1 = 2;
-        Debug.Log(num1);
-        Debug.Log(num1*num1);
+        if (input.Length > 0)
+        {
+            Debug.Log("Hola " + input);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

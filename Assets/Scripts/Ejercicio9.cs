@@ -21,9 +21,14 @@ public class Ejercicio9 : MonoBehaviour
         prcnt1 = 100 * cant1 / total;
         prcnt2 = 100 * cant2 / total;
         prcnt3 = 100 * cant3 / total;
-        Debug.Log("Nombre: " + nom1 + " // Capital aportado: $" + cant1 + " // Porcentaje del capital: %" + prcnt1 + " // Monto total aportado: " + total);
-        Debug.Log("Nombre: " + nom2 + " // Capital aportado: $" + cant2 + " // Porcentaje del capital: %" + prcnt2 + " // Monto total aportado: " + total);
-        Debug.Log("Nombre: " + nom3 + " // Capital aportado: $" + cant3 + " // Porcentaje del capital: %" + prcnt3 + " // Monto total aportado: " + total);
+        Debug.Log("Nombre: " + nom1 + " // Capital aportado: $" + cant1 + " // Porcentaje del capital: %"
+        + prcnt1 + " // Monto total aportado: " + total);
+
+        Debug.Log("Nombre: " + nom2 + " // Capital aportado: $" + cant2 + " // Porcentaje del capital: %"
+        + prcnt2 + " // Monto total aportado: " + total);
+
+        Debug.Log("Nombre: " + nom3 + " // Capital aportado: $" + cant3 + " // Porcentaje del capital: %"
+        + prcnt3 + " // Monto total aportado: " + total);
     }
 
     // Update is called once per frame

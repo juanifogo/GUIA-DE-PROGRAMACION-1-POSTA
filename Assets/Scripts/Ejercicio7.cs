@@ -9,9 +9,7 @@ using UnityEngine;
 
 public class Ejercicio7 : MonoBehaviour
 {
-    public int num1;
-    public int num2;
-    public int num3;
+    public int num1, num2, num3;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +42,6 @@ public class Ejercicio7 : MonoBehaviour
             Debug.Log("num2 y num3 son iguales y mayores a num1");
         }
     }
-
     // Update is called once per frame
     void Update()
     {

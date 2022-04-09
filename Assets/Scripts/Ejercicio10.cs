@@ -21,7 +21,7 @@ public class Ejercicio10 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (hora >= 18 && hora <= 24)
+        if (hora > 17 && hora < 23)
         {
             estaAbierto = false;
             Debug.Log(estaAbierto);
@@ -35,7 +35,7 @@ public class Ejercicio10 : MonoBehaviour
         {
             Debug.Log("Ha ingresado una hora incorrecta");
         }
-        else if (hora >= 10 && hora < 18)
+        else if (hora > 9 && hora < 17)
         {
             estaAbierto = true;
             Debug.Log(estaAbierto);

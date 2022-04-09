@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -682,7 +682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1442239790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,6 +695,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e71ea6d5d391947a034590ecf26297, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Cant: 3
+  PrecioUni: 323.45
+  Producto: Empanadas
+  NomComprador: Luc
+  FechaCompra: 
 --- !u!4 &1442239791
 Transform:
   m_ObjectHideFlags: 0
@@ -870,6 +875,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53fdf442b7fb5b64c882642541162196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dado1: 5
+  dado2: 5
+  dado3: 9
 --- !u!4 &1929392260
 Transform:
   m_ObjectHideFlags: 0

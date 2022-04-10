@@ -11,9 +11,9 @@ using UnityEngine;
 
 public class Ejercicio14 : MonoBehaviour
 {
-    public float num1, num2;
+    public int num1, num2;
     public string operacion;
-    float resultado;
+    int resultado;
     // Start is called before the first frame update
     void Start()
     {

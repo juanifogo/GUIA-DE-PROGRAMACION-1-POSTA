@@ -18,6 +18,11 @@ public class Ejercicio12 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //if(num1 < 1 || num2 < 1 || num3 < 1 || num1 > 6 || num2 > 6 || num3 > 6)
+        //{
+        //    Debug.Log("Valores de dados no validos");
+        //    return;
+        //}
         //if(num1 == 6)
         //{
         //    CantDe6++;

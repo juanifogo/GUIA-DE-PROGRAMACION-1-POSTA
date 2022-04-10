@@ -11,44 +11,36 @@ using UnityEngine;
 
 public class Ejercicio12 : MonoBehaviour
 {
+    public int[] nums = new int[3];
     byte CantDe6;
     string resultado;
-    public int dado1, dado2, dado3;
     // Start is called before the first frame update
     void Start()
     {
-
-        if (dado1 < 1 || dado1 > 6 || dado2 < 1 || dado2 > 6 || dado3 < 1 || dado3 > 6)
+        for (int p = 0; p < nums.Length; p++)
         {
-            Debug.Log("Valores de dados no validos");
-            return;
+            if (nums[p] < 1 || nums[p] > 6)
+            {
+                Debug.Log("Valores de dados no validos");
+                return;
+            }
         }
-        else if (dado1 + dado2 + dado3 == 18)
+        for (int i = 0; i < nums.Length; i++)
         {
-            CantDe6 = 3;
+            if (nums[i] == 6)
+            {
+                CantDe6 += 1;
+            }
         }
-        else if(dado1+dado2==12 || dado1+dado3==012 || dado2+dado3==12)
-        {
-            CantDe6 = 2;
-        }
-        else if(dado1+dado2+dado3<16)
-        {
-            CantDe6 = 0;
-        }
-        else
-        {
-            CantDe6 = 1;
-        }
-        switch(CantDe6)
+        switch (CantDe6)
         {
             case 0: resultado = "Insuficiente"; break;
             case 1: resultado = "Regular"; break;
             case 2: resultado = "Muy bien"; break;
             case 3: resultado = "Excelente"; break;
         }
-            Debug.Log(resultado);     
+        Debug.Log(resultado);
     }
-
     // Update is called once per frame
     void Update()
     {

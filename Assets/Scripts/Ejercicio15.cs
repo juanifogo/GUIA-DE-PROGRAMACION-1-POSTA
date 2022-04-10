@@ -13,7 +13,7 @@ using UnityEngine;
 public class Ejercicio15 : MonoBehaviour
 {
     bool EstaEnA, EstaEnB, EstaEnAmbos, NoEstaEnNinguno;
-    int[] nums = {12, 13, 5, -5, -6};
+    public  int[] nums;
     // Start is called before the first frame update
     void Start()
     {

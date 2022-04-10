@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class Ejercicio7 : MonoBehaviour
 {
-    public int num1, num2, num3;
+    public int num1, num2, num3;    
     // Start is called before the first frame update
     void Start()
     {

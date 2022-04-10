@@ -11,12 +11,25 @@ using UnityEngine;
 
 public class Ejercicio12 : MonoBehaviour
 {
+    //public int num1, num2, num3;
     public int[] nums = new int[3];
     byte CantDe6;
     string resultado;
     // Start is called before the first frame update
     void Start()
     {
+        //if(num1 == 6)
+        //{
+        //    CantDe6++;
+        //}
+        //if(num2 == 6)
+        //{
+        //    CantDe6++;
+        //}
+        //if(num3 == 6)
+        //{
+        //    CantDe6++;
+        //}
         for (int p = 0; p < nums.Length; p++)
         {
             if (nums[p] < 1 || nums[p] > 6)
@@ -29,7 +42,7 @@ public class Ejercicio12 : MonoBehaviour
         {
             if (nums[i] == 6)
             {
-                CantDe6 += 1;
+                CantDe6++;
             }
         }
         switch (CantDe6)

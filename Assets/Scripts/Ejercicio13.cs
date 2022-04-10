@@ -19,6 +19,16 @@ public class Ejercicio13 : MonoBehaviour
     void Start()
     {
         int salario = 0;
+        if (horas<41)
+        {
+            salario = horas*SalarioHasta40;
+        }
+        else
+        {
+            salario = 40 * SalarioHasta40 + (horas - 40) * SalarioMasDe40;
+        }
+        Debug.Log("El salario de esa semana es " + salario);
+        /*  
         for (int i = 1; i <= horas && i<41; i++)
         {
             salario += SalarioHasta40;
@@ -31,7 +41,8 @@ public class Ejercicio13 : MonoBehaviour
         {
             salario += SalarioMasDe40;
         }
-        Debug.Log(salario);
+        Debug.Log("El salario de esa semana es " + salario);
+        */
     }
 
     // Update is called once per frame
